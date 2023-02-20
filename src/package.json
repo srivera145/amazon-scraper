@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "server": "nodemon index.js",
-    "build": "nodemon index.js"
+    "server": "nodemon index.js"
   },
   "author": "Santos Rivera",
   "license": "ISC",

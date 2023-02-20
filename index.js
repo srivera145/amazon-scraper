@@ -2,9 +2,9 @@ const express = require('express');
 const request = require('request-promise');
 const dotenv = require('dotenv');
 
-dotenv.config({ path: './config.env' });
+dotenv.config({ path: './.env' });
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 5000;
 const app = express();
 const apiKey = process.env.SCRAPER_API_KEY;
 
